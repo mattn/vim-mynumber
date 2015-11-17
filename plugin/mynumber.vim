@@ -36,9 +36,9 @@ endfunction
 
 function! s:validate(s)
   if s:validate_mynumber(map(split(a:s, '\zs'), 'char2nr(v:val)'))
-    echohl MoreMsg | echo 'Your MyNumber is Valid! Congratulations!'
+    echohl MoreMsg | echo 'Your MyNumber is Valid! Congratulations!' | echohl None
   else
-    echohl ErrorMsg | echo 'Your MyNumber is NOT Valid! So Bad!'
+    echohl ErrorMsg | echo 'Your MyNumber is NOT Valid! So Bad!' | echohl None
   endif
 endfunction
 
