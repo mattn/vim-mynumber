@@ -2,7 +2,7 @@
 
 ![](http://go-gyazo.appspot.com/26343b30a98275d6.png)
 
-Check you MyNumber
+Check your MyNumber
 
 ## Usage
 
